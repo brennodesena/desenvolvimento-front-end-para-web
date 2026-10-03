@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin:0;
+    background-color: aliceblue
+    color: darkgoldenrod;
+    font-family: Arial, helvetica, sans-serif;
+}
+
+   /* Organização geral da página */
+
+   .layout-pagina {
+       display: grid;
+
+       grid-template-areas:
+       "header header"
+       "sidebar main"
+       "footer footer"
+       ;
+
+       grid-template-columns: 220px 1fr;
+       grid-template-rows: auto 1fr auto;
+
+       min-height: 100vh;
+   }
+
+   /* Cabeçalho */
+
+   .cabecalho {
+       grid-area: header;
+
+       background-color: rgb(252, 199, 55);
+       color: white;
+       padding: 25px;
+       text-align: center;
+   }
+
+   .cabecalho h1 {
+    margin: 0 0 10px;
+}
+
+.cabecalho p {
+    margin: 0;
+}
+
+/* Menu Lateral */
+
+.barra-lateral {
+    grid-area: sidebar;
+    background-color: aliceblue;
+    padding: 20px;
+}
+
+.barra-lateral h2 {
+    color:darkblue;
+}
+
+.barra-lateral ul {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+}
+
+.barra-lateral li{
+    margin-bottom: 10px;
+
+}
+
+.barra-lateral a{
+    display: block;
+    background-color: rgb(231, 165, 66);
+    color: azure;
+    padding: 12px;
+    text-decoration: none;
+}
+
+.barra-lateral a:hover {
+    background-color: rgb(219, 125, 18);
+}
+
+/*Conteúdo Principal*/
+
+.conteudo-principal {
+    grid-area: main;
+    padding: 30px;
+}
+
+.conteudo-principal h2{
+    margin-top: 0;
+    color:yellow;
+}
+
+.grid-principal {
+    display: grid;
+    grid-template-clumns: repeat(auto-fit, minmax (300px, 1fr));
+
+    gap: 2rem;
+}
+
+/*Cards*/
+
+
+.card {
+    background-color: azure;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px black;
+}
+
+.card h3{
+    margin-top: 0;
+    color: rgb(148, 31, 226);
+}
+
+.cardp p{
+    line-height: 1.6;
+}
+
+.card a{
+    display: inline-block;
+    background-color: coral;
+    color: bisque;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.card a :hover{
+    background-color:blueviolet;
+}
+    
