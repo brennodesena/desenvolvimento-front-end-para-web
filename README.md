@@ -1,9 +1,8 @@
+Desenvolvimento Front-End
 
-# Algoritmos e Pensamento Computacional
+Nome: Brenno de Sena Rodrigues
+RGM: 04956150-2
 
-**Nome:** Brenno de Sena Rodrigues  
-**RGM:** 04956150-2
+Atividades
 
-## Atividades
-
-Repositório destinado às atividades desenvolvidas nas aulas de Algoritmos e Pensamento Computacional, da Aula 2 à Aula 10.
+Repositório destinado às atividades e aos projetos desenvolvidos nas aulas de Desenvolvimento Front-End.
